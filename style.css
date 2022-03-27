@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Inter:wght@500&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Mukta:wght@800&family=Outfit:wght@400;700&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    width: 400px;
+    height: 670px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+.top-img{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 340px;
+    height: 340px;
+    border-radius: 12px;
+}
+
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info h2{
+    position: relative;
+    top: 50px;
+    right: 45px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h2:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%) ;
+}
+
+.card-info p{
+    position: relative;
+    top: 60px;
+    left: 30px;
+    padding-right: 40px;
+    letter-spacing: 0.5px;
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.ethereum-clock{
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ethereum-clock .eth{
+    position: relative;
+    margin-right: 130px;
+    color:hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ethereum-clock .icon{margin-right: 8px;}
+
+.ethereum-clock .days{
+    position: relative;
+    left: 5px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#line{
+   position: relative;
+   top: 120px;
+   width: 85%;
+   border: 1px solid hsl(215, 32%, 27%); 
+}
+
+.creation{
+    position: relative;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar{
+    position: relative;
+    top:5px;
+    right: 40px;
+    border: 0.1px solid white;
+    border-radius: 50%;
+}
+
+.creation h4{
+    position: relative;
+    top: 10px;
+    right: 20px;
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.creation span{color: white;}
+
+.creation span:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .attribution a {color: hsl(108, 91%, 37%);}
